@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>customcss</title>
+        <script
+            id="sap-ui-bootstrap"
+            src="resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_fiori_3"
+            data-sap-ui-resourceroots='{"com.sfc.customcss": "./"}'
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+            data-sap-ui-async="true"
+			data-sap-ui-preload="async"
+            data-sap-ui-frameOptions="trusted"
+        ></script>
+	<style>
+        html, body { height: 100%; }
+
+        #container-customcss---App--buttonAccept-inner {
+
+            background-image: none;
+            background-color: #fff;
+            border-color: #d3e20d !important;
+            color: #d3e20d !important;
+
+        }
+     
+        .myRejectButton {
+            width: 300px;
+            height: 70px;
+        }
+
+
+	</style>        
+    </head>
+    <body class="sapUiBody">
+        <div
+            data-sap-ui-component
+            data-name="com.sfc.customcss"
+            data-height="100%"
+            data-id="container"
+            style="height: 100%"
+            data-settings='{"id" : "customcss"}'                    
+        ></div>
+    </body>
+</html>
