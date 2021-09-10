@@ -77,6 +77,52 @@
 			<!-- These labels exist only to provide targets for the ARIA label on the Edit and Action buttons -->
 			<core:InvisibleText id="editButtonLabel" text="Edit Button Label"/>
 			<core:InvisibleText id="actionButtonLabel" text="Action Button Label"/>
+
+
+            <Panel headerText="Single=sided Margins / Top Margin" class="sapUiLargeMarginTop" >
+                <FlexBox    height="100px"
+                            alignItems="Start"
+                            justifyContent="Start">                   
+                    <Button text="sapUiTinyMarginTop" class="sapUiTinyMarginTop sapUiSmallMarginEnd"/>
+                    <Button text="sapUiSmallMarginTop" class="sapUiSmallMarginTop sapUiSmallMarginEnd"/>
+                    <Button text="sapUiMediumMarginTop" class="sapUiMediumMarginTop sapUiSmallMarginEnd"/>
+                    <Button text="sapUiLargeMarginTop" class="sapUiLargeMarginTop"/>                
+                </FlexBox>
+            </Panel>
+
+            <Panel headerText="Single=sided Margins / Bottom Margin" class="sapUiSmallMarginTop">
+                <FlexBox    height="100px"
+                            alignItems="End"
+                            justifyContent="Start">                 
+                        <Button text="sapUiTinyMarginBottom" class="sapUiTinyMarginBottom sapUiSmallMarginEnd"/>
+                        <Button text="sapUiSmallMarginBottom" class="sapUiSmallMarginBottom sapUiSmallMarginEnd"/>              
+                        <Button text="sapUiMediumMarginBottom" class="sapUiMediumMarginBottom sapUiSmallMarginEnd"/>
+                        <Button text="sapUiLargeMarginBottom" class="sapUiLargeMarginBottom"/>              
+                </FlexBox>
+            </Panel>
+
+            <Panel headerText="Single=sided Margins / Begin Margin" class="sapUiSmallMarginTop">
+                <VBox    height="200px"
+                            alignItems="Start"
+                            justifyContent="Start">                 
+                        <Button text="sapUiTinyMarginBegin" class="sapUiTinyMarginBegin sapUiSmallMarginEnd"/>
+                        <Button text="sapUiSmallMarginBegin" class="sapUiSmallMarginBegin sapUiSmallMarginEnd"/>              
+                        <Button text="sapUiMediumMarginBegin" class="sapUiMediumMarginBegin sapUiSmallMarginEnd"/>
+                        <Button text="sapUiLargeMarginBegin" class="sapUiLargeMarginBegin"/>              
+                </VBox>
+            </Panel>
+
+            <Panel headerText="Single=sided Margins / End Margin" class="sapUiSmallMarginTop">
+                <VBox    height="200px"
+                            alignItems="End"
+                            justifyContent="Start">                 
+                        <Button text="sapUiTinyMarginEnd" class="sapUiTinyMarginEnd sapUiSmallMarginEnd"/>
+                        <Button text="sapUiSmallMarginEnd" class="sapUiSmallMarginEnd sapUiSmallMarginEnd"/>              
+                        <Button text="sapUiMediumMarginEnd" class="sapUiMediumMarginEnd sapUiSmallMarginEnd"/>
+                        <Button text="sapUiLargeMarginEnd" class="sapUiLargeMarginEnd"/>              
+                </VBox>
+            </Panel>
+
 		</content>
 		<footer>
 			<Toolbar>
